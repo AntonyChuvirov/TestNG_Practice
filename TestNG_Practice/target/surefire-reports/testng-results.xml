@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-23T11:01:51 EEST" name="Command line suite" finished-at="2023-10-23T11:02:09 EEST" duration-ms="18226">
+    <groups>
+      <group name="group2">
+        <method signature="Suite1Test.suite2Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" name="suite2Test" class="suites.Suite1Test"/>
+        <method signature="Suite1Test.suite3Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" name="suite3Test" class="suites.Suite1Test"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="Suite1Test.suite1Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" name="suite1Test" class="suites.Suite1Test"/>
+        <method signature="Suite2Test.suite1Test()[pri:0, instance:suites.Suite2Test@44f75083]" name="suite1Test" class="suites.Suite2Test"/>
+        <method signature="Suite2Test.suite2Test()[pri:0, instance:suites.Suite2Test@44f75083]" name="suite2Test" class="suites.Suite2Test"/>
+        <method signature="Suite2Test.suite3Test()[pri:0, instance:suites.Suite2Test@44f75083]" name="suite3Test" class="suites.Suite2Test"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2023-10-23T11:01:51 EEST" name="Command line test" finished-at="2023-10-23T11:02:09 EEST" duration-ms="18226">
+      <class name="suites.Suite1Test">
+        <test-method signature="suite1Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" started-at="2023-10-23T11:01:51 EEST" name="suite1Test" finished-at="2023-10-23T11:01:54 EEST" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite1Test -->
+        <test-method signature="suite2Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" started-at="2023-10-23T11:01:54 EEST" name="suite2Test" finished-at="2023-10-23T11:01:57 EEST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite2Test -->
+        <test-method signature="suite3Test()[pri:0, instance:suites.Suite1Test@6366ebe0]" started-at="2023-10-23T11:01:57 EEST" name="suite3Test" finished-at="2023-10-23T11:02:00 EEST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite3Test -->
+      </class> <!-- suites.Suite1Test -->
+      <class name="suites.Suite2Test">
+        <test-method signature="suite1Test()[pri:0, instance:suites.Suite2Test@44f75083]" started-at="2023-10-23T11:02:00 EEST" name="suite1Test" finished-at="2023-10-23T11:02:03 EEST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite1Test -->
+        <test-method signature="suite2Test()[pri:0, instance:suites.Suite2Test@44f75083]" started-at="2023-10-23T11:02:03 EEST" name="suite2Test" finished-at="2023-10-23T11:02:06 EEST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite2Test -->
+        <test-method signature="suite3Test()[pri:0, instance:suites.Suite2Test@44f75083]" started-at="2023-10-23T11:02:06 EEST" name="suite3Test" finished-at="2023-10-23T11:02:09 EEST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite3Test -->
+      </class> <!-- suites.Suite2Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+suites/Suite2Test.class
+instance/TestNGTestInstance.class
+parallel/CheckParallelTest.class
+parametrizedTests/MyParamTest.class
+dependentTests/DependentTests.class
+suites/Suite1Test.class
+orderTests/DisplayNameOrderTest.class
+retry/HowToRetryTest.class
+listeners/CheckListenerTest.class
+annotations/AnnotationsTest.class
+listeners/extensions/MyListener.class
+exceptionHandle/ExceptionTest.class
+retry/RetryAnalyzer.class

@@ -1,0 +1,13 @@
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/listeners/extensions/MyListener.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/retry/RetryAnalyzer.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/parametrizedTests/MyParamTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/dependentTests/DependentTests.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/instance/TestNGTestInstance.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/suites/Suite1Test.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/exceptionHandle/ExceptionTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/suites/Suite2Test.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/orderTests/DisplayNameOrderTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/parallel/CheckParallelTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/retry/HowToRetryTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/annotations/AnnotationsTest.java
+/Users/antonchuvirov/JUnit5_TestNG/TestNG_Practice/src/test/java/listeners/CheckListenerTest.java

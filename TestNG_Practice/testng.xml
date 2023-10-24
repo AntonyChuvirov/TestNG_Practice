@@ -1,0 +1,26 @@
+<suite name="TestSuite1" parallel="methods" thread-count="3" data-provider-thread-count="2">
+    <test name="MyTest1">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="group2"  />-->
+<!--                <include name="group1"  />-->
+<!--            </run>-->
+<!--        </groups>-->
+
+        <classes>
+            <class name="suites.Suite1Test">
+                <methods>
+                    <include name="suite1Test" />
+                    <include name="suite2Test" />
+                </methods>
+            </class>
+            <class name="suites.Suite2Test">
+                <methods>
+                    <include name="suite2Test" />
+                    <include name="suite3Test" />
+                </methods>
+            </class>
+<!--            <class name="parametrizedTests.MyParamTest" />-->
+        </classes>
+    </test>
+</suite>

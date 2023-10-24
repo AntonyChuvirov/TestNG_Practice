@@ -1,0 +1,24 @@
+1. Before and After annotations -> @BeforeSuite
+                                @BeforeTest
+                                @BeforeClass
+                                @BeforeGroups
+                                @BeforeMethod
+                                @Test
+                                @AfterMethod
+                                @AfterGroups
+                                @AfterClass
+                                @AfterTest
+                                @AfterSuite
+
+2. DisplayName -> @Test(description = "Some displayed name which can be a very long description")
+
+3. Ignore test -> @Test(enabled = false)
+
+4. Tags/Multiple -> @Test(groups = "1")
+
+5. Timeout -> @Test(timeOut = 1000)
+
+@Test(description = "Some displayed name which can be a very long description",
+            groups = "someGroup",
+            enabled = false,
+            timeOut = 1000)
